@@ -1,4 +1,4 @@
-package statics;
+package service;
 
 public class UserServiceImpl implements IUserService {
     @Override

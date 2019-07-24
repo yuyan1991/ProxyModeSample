@@ -1,4 +1,7 @@
-package statics;
+package proxy.statics;
+
+import service.IUserService;
+import service.UserServiceImpl;
 
 public class UserServiceProxy implements IUserService {
     private IUserService userService;
