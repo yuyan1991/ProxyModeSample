@@ -10,7 +10,6 @@ public class UserServiceProxy implements IUserService {
         this.userService = userService;
     }
 
-    @Override
     public void request() {
         long startTime = System.currentTimeMillis();
         userService.request();
